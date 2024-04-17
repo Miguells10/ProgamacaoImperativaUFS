@@ -12,6 +12,7 @@ public class Main {
     private static List<Pessoa> pessoas = new ArrayList<>(); // Lista de pessoas
 
     public static void main(String[] args) {
+        
         carregarDados(); // Carregar os dados do arquivo
         Scanner scanner = new Scanner(System.in);
         int opcao;
